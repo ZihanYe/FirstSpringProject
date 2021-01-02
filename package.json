@@ -1,0 +1,29 @@
+{
+  "name": "firstspringproject",
+  "version": "1.0.0",
+  "description": "My first Spring project to learn Spring JPA, REST...",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "proxy": "http://localhost:8080",
+  "keywords": [
+    "spring"
+  ],
+  "author": "ZihanYe",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  },
+  "main": "webpack.config.js"
+}
